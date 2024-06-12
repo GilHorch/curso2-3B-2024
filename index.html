@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de senhas</title>
     <link rel="stylesheet" href="style.css">
-   
+
 
 </head>
+
 <body>
-    <img src="unlock.svg" alt="Cadeado fechado">
-    <h2 class="titulo-principal">Gerdor de senha</h2>
-    <h3 class="titulo-secundario">Gere intantaneamente uma enha aleatoria e segura</h3>
+    <div class="conteudo-titulo">
+        <img src="unlock.svg" alt="Cadeado fechado">
+        <h2 class="titulo-principal">Gerdor de senha</h2>
+        <h3 class="titulo-secundario">Gere intantaneamente uma enha aleatoria e segura</h3>
+
+    </div>
+    <div class="conteudo-senha">
+
+        <label for="senha"> Senha </label>
+        <input name="senha" type="text" id="campo-senha">
+
+    </div>
+
+    <div class="parametro">
+
+        <h3 class="parametro-titulo">Personalize sua senha</h3>
+        <div class="parametro-coluna__senha">
+            <div class="parematro-senha">
+                <h4 class="parametro-senha__titulo">Numero de caracteres </h4>
+            </div>
+
+            <div class="parematro-senha">
+                <h4 class="parametro-senha__titulo">Característica da senha </h4>
+            </div>
+
+            <div class="parematro-senha">
+                <h4 class="parametro-senha__titulo">Força da senha </h4>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
