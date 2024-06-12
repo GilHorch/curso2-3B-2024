@@ -36,6 +36,21 @@ body {
     margin-top: 32px;
     padding: 24px;
 }
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+}
+#campo-senha:focus {
+    outline: none;
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .parametro-titulo {
     font-family: var(--roboto-mono);
@@ -43,11 +58,11 @@ body {
 
 }
 
-.parametro-senha__titulo{
+.parametro-senha__titulo {
     font-size: 24px;
 }
 
-.parametro-coluna__senha{
+.parametro-coluna__senha {
     display: flex;
     flex-direction: column;
     justify-content: center;
