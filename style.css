@@ -85,7 +85,7 @@ body {
     width: 50%;
     margin: 0 auto;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) {/* se a largura for maior do que 768*/
 
     .parametro-coluna__senha {
     flex-direction: row;
