@@ -25,19 +25,19 @@ body {
 }
 
 .conteudo-titulo {
-    text-align: center;
-    margin-top: 80px;
+    text-align: center;/*alinhamento*/
+    margin-top: 80px;/*margem superior*/
 }
 
 .titulo-principal {
     font-family: var(--roboto-mono);
-    font-size: 32px;
+    font-size: 32px;/*tamanho da fonte*/
 
 }
 
 .titulo-secundario {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 400;/*espesssura da fonte*/
 }
 
 .conteudo-senha {
@@ -66,10 +66,10 @@ body {
 }
 
 .parametro {
-    background-color: var(--fundo-texto);
+    background-color: var(--fundo-texto);/*cor de fundo*/
     border: 2px solid var(--borda);
     margin-top: 32px;
-    padding: 24px;
+    padding: 24px;/*espaço interno*/
 }
 
 .parametro-titulo {
