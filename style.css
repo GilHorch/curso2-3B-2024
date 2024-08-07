@@ -25,19 +25,23 @@ body {
 }
 
 .conteudo-titulo {
-    text-align: center;/*alinhamento*/
-    margin-top: 80px;/*margem superior*/
+    text-align: center;
+    /*alinhamento*/
+    margin-top: 80px;
+    /*margem superior*/
 }
 
 .titulo-principal {
     font-family: var(--roboto-mono);
-    font-size: 32px;/*tamanho da fonte*/
+    font-size: 32px;
+    /*tamanho da fonte*/
 
 }
 
 .titulo-secundario {
     font-size: 24px;
-    font-weight: 400;/*espesssura da fonte*/
+    font-weight: 400;
+    /*espesssura da fonte*/
 }
 
 .conteudo-senha {
@@ -66,10 +70,12 @@ body {
 }
 
 .parametro {
-    background-color: var(--fundo-texto);/*cor de fundo*/
+    background-color: var(--fundo-texto);
+    /*cor de fundo*/
     border: 2px solid var(--borda);
     margin-top: 32px;
-    padding: 24px;/*espaço interno*/
+    padding: 24px;
+    /*espaço interno*/
 }
 
 .parametro-titulo {
@@ -93,18 +99,27 @@ body {
     width: 50%;
     margin: 0 auto;
 }
-.parametro-senha-botoes{
-display: flex;
-justify-content: center;
+
+.parametro-senha-botoes {
+    display: flex;
+    justify-content: center;
 
 }
-.parametro-senha__botao{
-background-color: var(--fundo-texto);
-color: var(--branco);
-border: 20x solid var(--borda);
-padding: 24px;
+
+.parametro-senha__botao {
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 20x solid var(--borda);
+    padding: 24px;
 
 }
+
+.parametro-senha__texto {
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+}
+
 @media screen and (min-width:768px) {
     /* se a largura for maior do que 768*/
 
