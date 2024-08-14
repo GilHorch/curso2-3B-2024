@@ -5,7 +5,7 @@ let tamanhoSenha = 12;
 
 numerosenha.textContent = tamanhoSenha;//altera o valor do numero senha
 //seleciona todas as clases .parametro-senha__botao
-const botoes = querySelectorAll('.parametro-senha__botao');
+const botoes = document.querySelectorAll('.parametro-senha__botao');
 
 botoes[0].onclick = diminuiTamanho;//função para diminuir o tamanho da senha
 function diminuiTamanho() {
