@@ -13,10 +13,10 @@ function diminuiTamanho() {
     numerosenha.textContent = tamanhoSenha;//altera o valor do numero senha
 }
 
-/*botoes[1].onclick = aumentaTamanho;//função para diminuir o tamanho da senha
+botoes[1].onclick = aumentaTamanho;//função para diminuir o tamanho da senha
 function aumentaTamanho() {
     tamanhoSenha = tamanhoSenha + 1;//iminui uma unidade a variável tamanhoSenha
     numerosenha.textContent = tamanhoSenha;//altera o valor do numero senha
 }
-    */
+
 console.log(botoes);
