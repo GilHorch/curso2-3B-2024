@@ -18,3 +18,4 @@ function aumentaTamanho() {
     tamanhoSenha = tamanhoSenha + 1;//iminui uma unidade a variável tamanhoSenha
     numerosenha.textContent = tamanhoSenha;//altera o valor do numero senha
 }
+console.log(botoes);
